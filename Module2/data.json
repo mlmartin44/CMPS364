@@ -1,0 +1,17 @@
+[
+  { "studentId": 1, "name": "Mariah", "course": "CMPS364", "grade": "A", "year": "Sophomore" },
+  { "studentId": 2, "name": "Ethan", "course": "CMPS364", "grade": "B", "year": "Junior" },
+  { "studentId": 3, "name": "Brandon", "course": "CMPS364", "grade": "A-", "year": "Senior" },
+  { "studentId": 4, "name": "Ava", "course": "CMPS364", "grade": "C+", "year": "Freshman" },
+  { "studentId": 5, "name": "Noah", "course": "CMPS364", "grade": "B-", "year": "Senior" },
+  { "studentId": 6, "name": "Sophia", "course": "CMPS364", "grade": "A", "year": "Junior" },
+  { "studentId": 7, "name": "Liam", "course": "CMPS364", "grade": "B+", "year": "Sophomore" },
+  { "studentId": 8, "name": "Olivia", "course": "CMPS364", "grade": "A-", "year": "Freshman" },
+  { "studentId": 9, "name": "Mason", "course": "CMPS364", "grade": "C", "year": "Senior" },
+  { "studentId": 10, "name": "Emma", "course": "CMPS364", "grade": "B", "year": "Junior" },
+  { "studentId": 11, "name": "Lucas", "course": "CMPS364", "grade": "A", "year": "Senior" },
+  { "studentId": 12, "name": "Isabella", "course": "CMPS364", "grade": "B+", "year": "Sophomore" },
+  { "studentId": 13, "name": "James", "course": "CMPS364", "grade": "C-", "year": "Freshman" },
+  { "studentId": 14, "name": "Mia", "course": "CMPS364", "grade": "A", "year": "Junior" },
+  { "studentId": 15, "name": "Benjamin", "course": "CMPS364", "grade": "B-", "year": "Sophomore" }
+]
