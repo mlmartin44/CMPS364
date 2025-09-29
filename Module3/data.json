@@ -1,0 +1,17 @@
+[
+  { "studentId": 1, "name": "Mariah", "age": 21, "city": "Pittsburgh", "state": "PA", "course": "CMPS364", "enrollmentYear": 2022, "score": 95 },
+  { "studentId": 2, "name": "Ethan", "age": 19, "city": "Cleveland", "state": "OH", "course": "CMPS364", "enrollmentYear": 2021, "score": 88 },
+  { "studentId": 3, "name": "Brandon", "age": 23, "city": "Erie", "state": "PA", "course": "CMPS364", "enrollmentYear": 2019, "score": 76 },
+  { "studentId": 4, "name": "Ava", "age": 20, "city": "Columbus", "state": "OH", "course": "CMPS364", "enrollmentYear": 2023, "score": 92 },
+  { "studentId": 5, "name": "Noah", "age": 22, "city": "Pittsburgh", "state": "PA", "course": "CMPS364", "enrollmentYear": 2020, "score": 84 },
+  { "studentId": 6, "name": "Sophia", "age": 18, "city": "Cleveland", "state": "OH", "course": "CMPS364", "enrollmentYear": 2024, "score": 90 },
+  { "studentId": 7, "name": "Liam", "age": 24, "city": "Erie", "state": "PA", "course": "CMPS364", "enrollmentYear": 2021, "score": 78 },
+  { "studentId": 8, "name": "Olivia", "age": 21, "city": "Columbus", "state": "OH", "course": "CMPS364", "enrollmentYear": 2022, "score": 99 },
+  { "studentId": 9, "name": "Mason", "age": 19, "city": "Pittsburgh", "state": "PA", "course": "CMPS364", "enrollmentYear": 2023, "score": 65 },
+  { "studentId": 10, "name": "Emma", "age": 25, "city": "Cleveland", "state": "OH", "course": "CMPS364", "enrollmentYear": 2020, "score": 82 },
+  { "studentId": 11, "name": "Lucas", "age": 20, "city": "Erie", "state": "PA", "course": "CMPS364", "enrollmentYear": 2024, "score": 91 },
+  { "studentId": 12, "name": "Isabella", "age": 22, "city": "Columbus", "state": "OH", "course": "CMPS364", "enrollmentYear": 2019, "score": 73 },
+  { "studentId": 13, "name": "James", "age": 23, "city": "Pittsburgh", "state": "PA", "course": "CMPS364", "enrollmentYear": 2021, "score": 87 },
+  { "studentId": 14, "name": "Mia", "age": 19, "city": "Cleveland", "state": "OH", "course": "CMPS364", "enrollmentYear": 2022, "score": 93 },
+  { "studentId": 15, "name": "Benjamin", "age": 21, "city": "Erie", "state": "PA", "course": "CMPS364", "enrollmentYear": 2020, "score": 89 }
+]
