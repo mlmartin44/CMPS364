@@ -1,7 +1,12 @@
-const express = require ('express')
+const express = require('express');
+const app = express();
 
-const app = express()
+// Define route
+app.get('/', (req, res) => {
+  res.json({ mssg: "Welcome to my MongoDB API" });
+});
 
+// Start server
 app.listen(4000, () => {
-    res.json({mssg: "Welcome to my MongoDB Api"})
-})
+  console.log('Server running on port 4000');
+});
