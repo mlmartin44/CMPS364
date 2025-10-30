@@ -5,36 +5,43 @@ const app = express();
 
 let db;
 
-// connect to db first, then start server
-connectToDb((err) => {
-  if (!err) {
-    db = getDb();
-
-    app.listen(4000, () => {
-      console.log('✅ Server running on http://localhost:4000');
-    });
-  } else {
-    console.log('❌ Database connection failed');
-  }
-});
-
-// default route
+// ROUTES 
 app.get('/', (req, res) => {
   res.json({ mssg: 'Welcome to my MongoDB API' });
 });
 
-// get all movies, sorted by title (A-Z)
+// GET /movies -> returns all movies sorted by title (A→Z)
 app.get('/movies', (req, res) => {
-  let movies = [];
+  if (!db) {
+    
+    return res.status(503).json({ error: 'Database not connected yet. Try again in a moment.' });
+  }
 
+  const movies = [];
   db.collection('movies')
-    .find()                     //  get all docs
-    .sort({ title: 1 })         // sort ascending by title
-    .forEach(movie => movies.push(movie))  // push into array
-    .then(() => {               // once finished
+    .find()                    // 1) find
+    .sort({ title: 1 })        // 2) sort
+    .forEach(doc => movies.push(doc)) // 3) forEach 
+    .then(() => {              // 4) then
       res.status(200).json(movies);
     })
-    .catch(err => {             //handle errors
+    .catch(err => {            // 5) catch
+      console.error(err);
       res.status(500).json({ error: 'Could not fetch documents' });
     });
+});
+
+// CONNECT TO DB, THEN START SERVER
+connectToDb((err) => {
+  if (err) {
+    console.log('❌ Failed to connect to MongoDB');
+    
+  } else {
+    db = getDb();
+    console.log('✅ DB handle set');
+  }
+
+  app.listen(4000, () => {
+    console.log('✅ Server running on http://localhost:4000');
+  });
 });
