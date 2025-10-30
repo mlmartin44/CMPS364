@@ -34,7 +34,7 @@ app.get('/movies', (req, res) => {
 // CONNECT TO DB, THEN START SERVER
 connectToDb((err) => {
   if (err) {
-    console.log('❌ Failed to connect to MongoDB');
+    console.log('Failed to connect to MongoDB');
     
   } else {
     db = getDb();
@@ -42,6 +42,7 @@ connectToDb((err) => {
   }
 
   app.listen(4000, () => {
-    console.log('✅ Server running on http://localhost:4000');
+    console.log('Server running on http://localhost:4000');
   });
 });
+
