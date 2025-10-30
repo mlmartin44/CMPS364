@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Inception",
+    "year": 2010,
+    "genre": ["Action", "Sci-Fi", "Thriller"],
+    "rating": 8.8,
+    "director": "Christopher Nolan"
+  },
+  {
+    "title": "The Matrix",
+    "year": 1999,
+    "genre": ["Action", "Sci-Fi"],
+    "rating": 8.7,
+    "director": "Lana Wachowski, Lilly Wachowski"
+  },
+  {
+    "title": "Interstellar",
+    "year": 2014,
+    "genre": ["Adventure", "Drama", "Sci-Fi"],
+    "rating": 8.6,
+    "director": "Christopher Nolan"
+  },
+  {
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genre": ["Action", "Crime", "Drama"],
+    "rating": 9.0,
+    "director": "Christopher Nolan"
+  },
+  {
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "genre": ["Action", "Adventure", "Drama"],
+    "rating": 8.4,
+    "director": "Anthony Russo, Joe Russo"
+  },
+  {
+    "title": "Titanic",
+    "year": 1997,
+    "genre": ["Drama", "Romance"],
+    "rating": 7.9,
+    "director": "James Cameron"
+  },
+  {
+    "title": "Jurassic Park",
+    "year": 1993,
+    "genre": ["Adventure", "Sci-Fi"],
+    "rating": 8.1,
+    "director": "Steven Spielberg"
+  },
+  {
+    "title": "Forrest Gump",
+    "year": 1994,
+    "genre": ["Drama", "Romance"],
+    "rating": 8.8,
+    "director": "Robert Zemeckis"
+  },
+  {
+    "title": "The Lion King",
+    "year": 1994,
+    "genre": ["Animation", "Adventure", "Drama"],
+    "rating": 8.5,
+    "director": "Roger Allers, Rob Minkoff"
+  },
+  {
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "genre": ["Crime", "Drama"],
+    "rating": 8.9,
+    "director": "Quentin Tarantino"
+  }
+]
