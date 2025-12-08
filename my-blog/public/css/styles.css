@@ -1,31 +1,106 @@
+/* ----- Global Layout ----- */
 body {
-  font-family: Arial, sans-serif;
-  max-width: 800px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  max-width: 850px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 30px 20px;
+  background-color: #fafafa;
+  color: #333;
 }
 
-h1 {
+/* ----- Titles ----- */
+h1, h2 {
+  color: #4b2e83;                 
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* ----- Links ----- */
+a {
+  color: #5b3f95;                 
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #452c7c;                
+}
+
+/* ----- Buttons ----- */
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #6d28d9;      
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background-color: #5b21b6;     
+}
+
+/* ----- Post List Styling ----- */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background-color: white;
+  padding: 18px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #e1e1e1;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+li:hover {
+  border-color: #c5b3e6;          
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.08);
+}
+
+li p {
+  margin: 4px 0;
+  color: #555;
+}
+
+/* ----- Form Styling ----- */
+form {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   margin-bottom: 20px;
 }
 
-a {
-  display: inline-block;
-  margin: 5px 0;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+label {
+  font-weight: 600;
+  color: #4b2e83;                 
 }
 
 input, textarea {
-  padding: 8px;
+  padding: 10px;
   font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline-color: #6d28d9;         
 }
 
-button {
-  padding: 8px 12px;
-  cursor: pointer;
+textarea {
+  min-height: 150px;
+}
+
+
+.back-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #5b3f95;
 }

@@ -1,13 +1,19 @@
+<!-- views/post.ejs -->
 <!DOCTYPE html>
 <html>
 <head>
-  <title> <%= post.title %></title>
+  <title><%= post.title %></title>
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
   <h1><%= post.title %></h1>
+  <p>By <%= post.author || "Anonymous" %></p>
   <p><%= post.createdAt.toDateString() %></p>
   <p><%= post.content %></p>
+
+  <form action="/posts/<%= post._id %>/delete" method="POST" style="margin-top: 10px;">
+    <button type="submit">Delete Post</button>
+</form>
 
   <a href="/">Back to Home</a>
 </body>
